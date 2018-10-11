@@ -7,12 +7,12 @@ const { GraphQLObjectType, GraphQLString, GraphQLSchema, GraphQLID, GraphQLInt, 
 const books = [
   { id: '1', name: '300', genre: 'SciFi', authorId: '1' },
   { id: '2', name: 'The Martian', genre: 'SciFi', authorId: '2' },
-  { id: '3', name: 'NYTimes', genre: 'News', authorId: '1' }
+  { id: '3', name: 'Less', genre: 'Education', authorId: '1' }
 ]
 
 const authors = [
-  { id: '1', name: 'Essam', age: 34 },
-  { id: '2', name: 'Mike', age: 44 },
+  { id: '1', name: 'Andy Weir' },
+  { id: '2', name: 'Andrew Sean Greer' },
 ]
 
 const BookType = new GraphQLObjectType({
